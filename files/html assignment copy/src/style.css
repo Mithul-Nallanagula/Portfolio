@@ -1,0 +1,416 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Moderustic:wght@300..800&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Jersey+10&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Moderustic:wght@300..800&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Tint&family=Jersey+10&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Moderustic:wght@300..800&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Tint&family=Jersey+10&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Moderustic:wght@300..800&family=New+Amsterdam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"lato:ital",sans-serif;
+    
+    
+
+}
+body{
+    background: url('/background.jpg') no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
+    
+    
+
+z-index: 0;
+}
+.background{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0,
+      transparent 60%,
+      rgba(0, 0, 0, 0.8)
+    );
+    border-bottom: 8px solid #222;
+  }
+
+  
+  
+  .contant{
+      position: relative;
+      z-index: 100;
+  }
+header{
+    color: white;
+}
+main{
+    color: white;
+}
+
+#fit{
+    color: aquamarine;
+    text-align: center;
+    font-size:150px;
+    padding-top: 70px;
+    font-family: "New Amsterdam", sans-serif;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+padding: 20px ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+
+
+}
+.logo{
+    padding-left: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(252, 254, 254);
+}
+
+#logoimg{
+    position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.navb{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 40px;
+    animation-name: nav;
+    animation-duration: 0.5s;
+}
+.navb::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: rgb(4, 215, 215);
+    position: absolute;
+    left:0;
+    bottom: -4px;
+    opacity: 0;
+
+
+}
+
+.navb:hover::after{
+    opacity: 1;
+}
+.navb:hover{
+    color: aqua;
+    box-shadow:aqua ;
+}
+
+
+
+
+
+    
+    
+
+
+ #summary{
+    padding: 50px;
+    margin: 3px;
+    border-radius: 9px;
+    background-color: rgba(34, 34, 2, 0.418);
+    border: 2px solid white;
+    height: 200px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
+    
+
+ }
+#caption{
+    text-align: center;
+    margin: 10px;
+    font-family: "bungee Tint", sans-serif;
+    font-size: 40px;
+}
+   
+   .day{
+border: 2px  white;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+padding-bottom: 150px;
+border-radius: 4px;
+flex-wrap: wrap;
+
+
+
+}
+
+#monday,#tuesday,#wednesday,#thursday,#friday,#saturday{
+    
+    border: 2px solid white;
+    position:relative;
+    top:30px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+    
+    
+    
+    
+}
+
+#monday{
+    padding: 30px;
+    padding-bottom: 30px;
+    
+font-size: 20px;
+    margin: 10px;
+
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(6, 8, 8);
+    background-color:rgba(204, 244, 245, 0.442);}
+
+    .box1{
+        padding-top: 15px;
+    }
+    
+
+
+#tuesday{
+    padding: 30px;
+    padding-bottom: 30px;
+    
+font-size: 20px;
+    margin: 10px;
+
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(6, 8, 8);
+    background-color:rgba(204, 244, 245, 0.442);
+    
+}
+
+
+#wednesday{
+    padding: 30px;
+    padding-bottom: 30px;
+    
+font-size: 20px;
+    margin: 10px;
+
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(6, 8, 8);
+    background-color:rgba(204, 244, 245, 0.442);
+    
+}#thursday{
+    padding: 30px;
+    padding-bottom: 30px;
+    
+font-size: 20px;
+    margin: 10px;
+
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(6, 8, 8);
+    background-color:rgba(204, 244, 245, 0.442);
+    
+}#friday{
+    padding: 30px;
+    padding-bottom: 30px;
+    
+font-size: 20px;
+    margin: 10px;
+
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(6, 8, 8);
+    background-color:rgba(204, 244, 245, 0.442);
+    
+}
+
+#saturday{
+    padding: 30px;
+    padding-bottom: 30px;
+    
+font-size: 20px;
+    margin: 10px;
+
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(6, 8, 8);
+    background-color:rgba(204, 244, 245, 0.442);
+    
+}
+    
+#footer{
+    height: 300px;
+    width: 100%;
+    
+    padding-bottom: 500px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.204);
+}
+   .form{
+    text-align: center;
+    padding-top: 40px;
+    
+   }
+   #Username{
+    margin: 20px;
+    padding: 10px;
+    width: 350px;
+    height: 55px;
+    border-radius: 50px;
+    border: 2px solid black;
+   }
+
+   #email{
+    
+    padding: 10px;
+    width: 350px;
+    height: 55px;
+    border-radius: 50px;
+    border: 2px solid black;
+   }
+
+   #contact{
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    color: rgb(7, 250, 250);
+   }
+   
+   #message{
+    padding-top: 10px;
+    margin: 20px;
+    width: 350px;
+    height: 90px;
+    border-radius: 15px;
+
+   }
+ #submit{
+    height: 35px;
+    width: 120px;
+    border-radius: 50px;
+    background-color:rgb(16, 199, 250);
+ }
+ 
+ @media (max-width:600px){
+    #fit{
+        position: relative;
+        text-align: center;
+        font-size: 100px;
+        left:60vw;
+        top: 20px;
+    }
+    #summary{
+        width:180vw;
+        margin-left: 10vw;
+        margin-right: 2vw;
+        height: 40vh;
+    }
+    .day{
+        grid-template-columns: 1fr;
+        width: 200vw;
+        margin-left: 10px;
+    }
+    #contact{
+        border: 2px solid white;
+        border-radius: 15px;
+        margin-left: 30vw;
+        padding: 20px;
+        margin-left: 50vw;
+        width: 100vw;
+
+
+
+    }
+    .navbar{
+        padding: 5px;
+        width:250vw;
+    }
+
+    #caption{
+        text-align: left;
+         width: 200vw;
+         padding-top: 30vw;
+         padding-left: 30vw;
+    }
+    #Username{
+        border-radius: 50px;
+        margin-left: 30vw;
+        padding: 20px;
+        margin-left: 35vw;
+        width: 130vw;
+        height: 23vw;
+
+
+    }
+    #email{
+        border-radius: 50px;
+        margin-left: 30vw;
+        padding: 20px;
+        margin-left: 35vw;
+        width: 130vw;
+        height: 23vw;
+
+    }
+    #message{
+        border-radius: 20px;
+        margin-left: 30vw;
+        padding: 20px;
+        margin-left: 35vw;
+        width: 130vw;
+        height: 35vw;
+
+    }
+    #submit{
+        align-items: center;
+        margin-left: 80vw;
+    }
+    .logo{
+        margin-left: 5vw;
+        margin-top: 5vw;;
+
+    }
+ }
+ 
+ @media (min-width:800px) and (max-width:1000px){
+    #summary{
+        height: 40vw;
+        width: 100vw;
+        margin-left: 2.5vw;
+        padding: -2vw;
+    }
+    #fit{
+        padding-left: 15vw;
+    }
+.background{
+    width: 105vw;
+}
+}
+ 
+ 
+
+ 
+    
+ 
